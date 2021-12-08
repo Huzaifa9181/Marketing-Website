@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">ABC COMPANY</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about-cont">ABOUT US</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#container-content">SERVICES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#cont-team">OUR TEAM</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#price-container">PRICE PLAN</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonials-contain">TESTIMONIALS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#cont-contact">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Slider -->
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="first.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="3.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="4.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- About US -->
+
+    <div class="row justify-content-center" id="about-cont">
+        <div class="col-sm-5 mt-5 mb-3">
+            <h1>About Us</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe tempora quia porro unde a praesentium aut dolorum dolor eum beatae at numquam nisi, iste harum odit expedita eligendi cupiditate quibusdam! Quos ullam dicta a sapiente, ducimus
+                optio beatae laborum nisi sint nobis ex. Assumenda, itaque iusto veniam debitis modi quia.</p>
+            <button type="button" class="btn btn-primary">Primary</button>
+        </div>
+        <div class="col-sm-5 mt-5 mb-3">
+            <p>Adobe Photoshop</p>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 90%; border-radius: 80px" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">90%</div>
+            </div>
+
+            <p>UI Design</p>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 75%; border-radius: 80px" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">75%</div>
+            </div>
+
+            <p>WordPress</p>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 60%; border-radius: 80px" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">60%</div>
+            </div>
+
+            <p>Graphics Design</p>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 25%; border-radius: 80px" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+            </div>
+        </div>
+
+        <div class="row justify-content-center mt-5 mb-3 text-center text-white" id="container-content">
+            <h1 id="heading-content" class="mt-5 text-dark">Our Services</h1>
+
+            <!-- Web Developement -->
+            <div class="col-md-3 content1">
+                <i class="bi bi-laptop icon-cen"></i>
+                <h1 class="ser-head mt-3">Web Developement</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab reprehenderit delectus quae veniam odit libero impedit cupiditate! Repellat, eaque tenetur?</p>
+            </div>
+            <!-- App Developement -->
+            <div class="col-md-3 content2">
+                <i class="bi bi-phone icon-cen"></i>
+                <h1 class="ser-head mt-3">App Developement</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab reprehenderit delectus quae veniam odit libero impedit cupiditate! Repellat, eaque tenetur?</p>
+            </div>
+            <!-- Digital Marketing -->
+            <div class="col-md-3 content3">
+                <i class="bi bi-graph-up-arrow icon-cen"></i>
+                <h1 class="ser-head mt-3"> Digital Marketing</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab reprehenderit delectus quae veniam odit libero impedit cupiditate! Repellat, eaque tenetur?</p>
+            </div>
+            <!-- Graphics Designing -->
+            <div class="col-md-3 content4">
+                <i class="bi bi-brush-fill icon-cen"></i>
+                <h1 class="ser-head mt-3">Graphics Designing</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab reprehenderit delectus quae veniam odit libero impedit cupiditate! Repellat, eaque tenetur?</p>
+            </div>
+        </div>
+        <!-- OUR TEAM -->
+
+        <div id="cont-team" class="row justify-content-center mt-4 mb-3 text-center">
+            <h1 id="team-heading">Our Team</h1>
+            <div class="col-md-3">
+                <img src="team1.jpg" class="team-img mt-5" alt="team image">
+                <h3 class="head-team">Huzaifa Ahmed</h3>
+                <p class="para-team">Founder / CEO</p>
+                <p>Lorem ipsum dolor sit amet <br> aconsectetur adipisicing elit.</p>
+            </div>
+
+            <div class="col-md-3">
+                <img src="team1.jpg" class="team-img mt-5" alt="team image">
+                <h3 class="head-team">Abdullah Ahmed</h3>
+                <p class="para-team">Marketing Head</p>
+                <p>Lorem ipsum dolor sit amet <br> consectetur adipisicing elit.</p>
+            </div>
+
+            <div class="col-md-3">
+                <img src="team1.jpg" class="team-img mt-5" alt="team image">
+                <h3 class="head-team">Hamza Ahmed</h3>
+                <p class="para-team">Founder / CEOUI Designer</p>
+                <p>Lorem ipsum dolor sit amet <br> consectetur adipisicing elit.</p>
+            </div>
+
+            <div class="col-md-3">
+                <img src="team1.jpg" class="team-img mt-5" alt="team image">
+                <h3 class="head-team">Sami Ahmed</h3>
+                <p class="para-team">Buisnees Head</p>
+                <p>Lorem ipsum dolor sit amet <br> consectetur adipisicing elit.</p>
+            </div>
+        </div>
+
+        <div id="price-container" class="row justify-content-center mt-5 mb-3">
+            <h1 id="Price-heading" class="text-center mt-5 mb-5 p-4">Price Plan</h1>
+            <div class="col-md-3 container-sale">
+                <div class="card" style="width: 18rem;">
+                    <div class="cont-sale text-center">
+                        <h1 class="price-head">Free</h1>
+                        <h4 class="price-sale">$0/month</h4>
+                    </div>
+                    <div class="card-body">
+                        <span class="icon-corr"><i class="bi bi-check-circle-fill check"></i>
+                        <p class="card-text">5GB Space</p></span>
+                        <hr>
+                        <span class="icon-corr"><i class="bi bi-check-circle-fill check"></i>
+                        <p class="card-text">10GB Bandwidth</p></span>
+                        <hr>
+                        <span class="icon-corr"><i class="bi bi-x-circle-fill check text-danger"></i>
+                        <p class="card-text">15GB Email Account</p></span>
+                        <hr>
+                        <span class="icon-corr"><i class="bi bi-x-circle-fill check text-danger"></i>
+                        <p class="card-text">Unlimated Domain</p></span>
+                        <hr>
+                        <span class="icon-corr"><i class="bi bi-x-circle-fill check text-danger"></i>
+                        <p class="card-text">Unlimated Support</p></span>
+                        <hr>
+                        <a href="#" class="btn btn-primary btn-buy1">Join For Free</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2 -->
+
+            <div class="col-md-3 container-sale">
+                <div class="card" style="width: 18rem;">
+                    <div class="cont-sale text-center">
+                        <h1 class="price-head">STARTUP</h1>
+                        <h4 class="price-sale">$10/month</h4>
+                    </div>
+                    <div class="card-body">
+                        <span class="icon-corr"><i class="bi bi-check-circle-fill check"></i>
+                        <p class="card-text">5GB Space</p></span>
+                        <hr>
+                        <span class="icon-corr"><i class="bi bi-check-circle-fill check"></i>
+                        <p class="card-text">10GB Bandwidth</p></span>
+                        <hr>
+                        <span class="icon-corr"><i class="bi bi-check-circle-fill check"></i>
+                        <p class="card-text">15GB Email Account</p></span>
+                        <hr>
+                        <span class="icon-corr"><i class="bi bi-x-circle-fill check text-danger"></i>
+                        <p class="card-text">Unlimated Domain</p></span>
+                        <hr>
+                        <span class="icon-corr"><i class="bi bi-x-circle-fill check text-danger"></i>
+                        <p class="card-text">Unlimated Support</p></span>
+                        <hr>
+                        <a href="#" class="btn btn-primary btn-buy">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 3 -->
+
+            <div class="col-md-3 container-sale">
+                <div class="card" style="width: 18rem;">
+                    <div class="cont-sale text-center">
+                        <h1 class="price-head">BUISNESS</h1>
+                        <h4 class="price-sale">$50/month</h4>
+                    </div>
+                    <div class="card-body">
+                        <span class="icon-corr"><i class="bi bi-check-circle-fill check"></i>
+                        <p class="card-text">5GB Space</p></span>
+                        <hr>
+                        <span class="icon-corr"><i class="bi bi-check-circle-fill check"></i>
+                        <p class="card-text">10GB Bandwidth</p></span>
+                        <hr>
+                        <span class="icon-corr"><i class="bi bi-check-circle-fill check"></i>
+                        <p class="card-text">15GB Email Account</p></span>
+                        <hr>
+                        <span class="icon-corr"><i class="bi bi-check-circle-fill check"></i>
+                        <p class="card-text">Unlimated Domain</p></span>
+                        <hr>
+                        <span class="icon-corr"><i class="bi bi-x-circle-fill check text-danger"></i>
+                        <p class="card-text">Unlimated Support</p></span>
+                        <hr>
+                        <a href="#" class="btn btn-primary btn-buy">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 4 -->
+
+            <div class="col-md-3 container-sale">
+                <div class="card" style="width: 18rem;">
+                    <div class="cont-sale text-center">
+                        <h1 class="price-head">ADVANCED</h1>
+                        <h4 class="price-sale">$100/month</h4>
+                    </div>
+                    <div class="card-body">
+                        <span class="icon-corr"><i class="bi bi-check-circle-fill check"></i>
+                        <p class="card-text">5GB Space</p></span>
+                        <hr>
+                        <span class="icon-corr"><i class="bi bi-check-circle-fill check"></i>
+                        <p class="card-text">10GB Bandwidth</p></span>
+                        <hr>
+                        <span class="icon-corr"><i class="bi bi-check-circle-fill check"></i>
+                        <p class="card-text">15GB Email Account</p></span>
+                        <hr>
+                        <span class="icon-corr"><i class="bi bi-check-circle-fill check"></i>
+                        <p class="card-text">Unlimated Domain</p></span>
+                        <hr>
+                        <span class="icon-corr"><i class="bi bi-check-circle-fill check"></i>
+                        <p class="card-text">Unlimated Support</p></span>
+                        <hr>
+                        <a href="#" class="btn btn-primary btn-buy">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- counter -->
+        <section class="counters">
+            <div class="countainer text-center">
+                <div id="div1" class="cont-div">
+                    <i class="bi bi-instagram inst"></i>
+                    <h3>Instagram</h3>
+                    <div class="counter" data-target="15000">5000</div>
+
+                </div>
+
+                <div id="div2" class="cont-div">
+                    <i class="bi bi-whatsapp what"></i>
+                    <h3>Whatsapp</h3>
+                    <div class="counter" data-target="15000">15000</div>
+                </div>
+
+                <div id="div3" class="cont-div">
+                    <i class="bi bi-building build"></i>
+                    <h3>Building</h3>
+                    <div class="counter" data-target="15000">85000</div>
+                </div>
+
+                <script>
+                    $('.counter').counterUp({
+                        delay: 10,
+                        time: 2000
+                    });
+                </script>
+
+            </div>
+            <!-- testimonials -->
+            <div class="row justify-content-center" id="testimonials-contain">
+                <h1 id="Test-heading" class="text-center mt-5 mb-5 p-4">TESTIMONIALS</h1>
+                <p class="text-center mb-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit, natus.</p>
+                <div class="cont-test col-md-3" style="background-color: lightgrey; padding: 10px 20px;">
+                    <p>
+                        <h1 class="colon">"</h1> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia dicta tenetur saepe laboriosam ullam quaerat voluptatibus commodi consequatur velit non animi, ab hic. Odit accusamus nobis, molestias perferendis quaerat
+                        quae.
+                        <h1 class="colon" style="text-align: right;">"</h1>
+                    </p>
+                    <h3 class="test-name">Huzaifa Ahmed</h3>
+                    <p class="test-para-name">Co-Founder at xyz</p>
+                </div>
+
+                <!-- 2 -->
+                <div class="cont-test col-md-3" style="background-color: lightgrey; padding: 10px 20px;">
+                    <p>
+                        <h1 class="colon">"</h1> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia dicta tenetur saepe laboriosam ullam quaerat voluptatibus commodi consequatur velit non animi, ab hic. Odit accusamus nobis, molestias perferendis quaerat
+                        quae.
+                        <h1 class="colon" style="text-align: right;">"</h1>
+                    </p>
+                    <h3 class="test-name">Hamza Ahmed</h3>
+                    <p class="test-para-name">Founder/CEO at xyz</p>
+                </div>
+                <!-- 3 -->
+                <div class="cont-test col-md-3" style="background-color: lightgrey; padding: 10px 20px;">
+                    <p>
+                        <h1 class="colon">"</h1> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia dicta tenetur saepe laboriosam ullam quaerat voluptatibus commodi consequatur velit non animi, ab hic. Odit accusamus nobis, molestias perferendis quaerat
+                        quae.
+                        <h1 class="colon" style="text-align: right;">"</h1>
+                    </p>
+                    <h3 class="test-name">Abdullah Ahmed</h3>
+                    <p class="test-para-name">Manager at xyz</p>
+                </div>
+
+            </div>
+            <!-- Contact Form -->
+            <div id="cont-contact" class="row justify-content-evenly mt-4">
+                <h1 id="contact-heading" class="text-center mt-5 ">Registration</h1>
+                <div class="col-md-5 mt-5 mb-3" id="contact">
+                    <h3>Contact Form</h3>
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name:</label>
+                            <input type="text" class="form-control" id="name">
+                            <div id="emailHelp" class="form-text">Enter your correct name.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-danger">Submit</button>
+                    </form>
+                </div>
+                <div class="col-md-5 mt-5 mb-3">
+                    <h3>Address</h3>
+                    <div class="mt-3 mb-3">
+                        <p>Orangi Town - 10 <br> Number Karachi - 911 <br>
+                            <i class="bi bi-telephone"> </i>031252688</p>
+                    </div>
+                    <iframe src="https://www.google.com/maps/d/embed?mid=1rwSC4Zel8v3ywPeaibqjPQPWGMo" style="width: 100%;" height="250"></iframe>
+                </div>
+            </div>
+
+    </div>
+
+    <!-- Copyright -->
+    <div class="row">
+        <div class="col-md-12 bg-secondary justify-content-evenly text-center">
+            <P>Copyright 1999 - 2021 by ABC COMPANY.All right reserved</P>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
